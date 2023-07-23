@@ -1,0 +1,94 @@
+header {
+    width: fit-content;
+    text-align: center;
+}
+
+body {
+    /*border: 2px solid rgb(61, 59, 59);*/
+    background-color: rgb(179, 202, 141);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.buttons {
+    box-shadow:  3px 3px 5px 3px gray;
+    border-radius: 6px;
+    justify-content: center;
+    width: 55%;
+    background-color: rgb(192, 166, 216);
+    /*border: 2px solid rgb(61, 59, 59);*/
+}
+
+.button {
+    /*border: 1px solid rgb(61, 59, 59);*/
+    box-shadow:  3px 3px 5px 3px gray;
+    border-radius: 6px;
+    font-size: xx-large;
+    height: 20vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modifier {
+    /*border: 1px solid rgb(61, 59, 59);*/
+    box-shadow:  3px 3px 5px 3px gray;
+    border-radius: 6px;
+    background-color: rgb(177, 130, 72);
+    font-size: xx-large;
+    height: 20vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clearButton {
+    /*border: 1px solid rgb(61, 59, 59);*/
+    box-shadow:  3px 3px 5px 3px gray;
+    border-radius: 6px;
+    font-size: xx-large;
+    height: 20vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#equalsButton {
+/*    border: 1px solid rgb(61, 59, 59);*/
+box-shadow:  3px 3px 5px 3px gray;
+    border-radius: 6px;
+    font-size: xx-large;
+    height: 20vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mathProblem {
+/*    border: 2px solid rgb(61, 59, 59);*/
+box-shadow:  3px 3px 5px 3px gray;
+    border-radius: 6px;
+    background-color: rgb(63, 159, 130);
+    font-size: xx-large;
+    height: 20vh;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+/*    border: 2px solid rgb(61, 59, 59);*/
+}
+
+#featured {
+/*    border: 2px solid rgb(61, 59, 59);*/
+    font-size: xx-large;
+}
